@@ -8,7 +8,6 @@ RUN npm run build
 
 # Etapa 2: Producción (Run)
 FROM nginxinc/nginx-unprivileged:alpine
-# Cumplimiento de rúbrica: Imagen oficial con usuario no root preconfigurado
 COPY --from=builder /app/dist /usr/share/nginx/html
 # Exponemos el puerto 8080 que es el que usa esta imagen sin root nativamente
 EXPOSE 8080

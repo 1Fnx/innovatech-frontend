@@ -156,4 +156,4 @@ innovatech-frontend/
 
 **Grupo Cordillera — Innovatech Chile**  
 Asignatura: ISY1101 — Introducción a Herramientas DevOps  
-Evaluación Parcial N°2 | 2025
+Evaluación Parcial N°2 | 2026
